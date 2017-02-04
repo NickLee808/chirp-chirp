@@ -1,5 +1,7 @@
+//jshint esversion:6
+
 function chirp(n){
-  // FIX ME
+  return (n > 1) ? ('chirp ' + chirp(n--)) : ('chirp');
 }
 
 $(document).ready(function(){
